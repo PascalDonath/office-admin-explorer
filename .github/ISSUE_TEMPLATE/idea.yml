@@ -1,0 +1,20 @@
+name: Idea or missing feature
+description: Suggest a new entry, a missing policy, a user-support case or a feature.
+title: "[Idea] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ideas are welcome! Please **do not post internal company configuration or personal data**.
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help you?
+      placeholder: e.g. an entry for …, a Visio/Project mock, an export to …
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why / in which situation?
+      description: A short real-world example helps to prioritise.

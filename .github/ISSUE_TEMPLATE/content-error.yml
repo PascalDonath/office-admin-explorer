@@ -1,0 +1,44 @@
+name: Wrong or outdated information
+description: A registry path, policy name, Intune setting, idMso or explanation is wrong or outdated.
+title: "[Content] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping to keep the data correct! Please **do not post internal company configuration, tenant details or personal data**.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry
+      description: Filled in automatically when you use "Report it on GitHub" in the app. Otherwise the title or idMso of the element.
+    validations:
+      required: true
+  - type: dropdown
+    id: app
+    attributes:
+      label: App
+      options:
+        - Word
+        - Excel
+        - PowerPoint
+        - Outlook
+        - OneNote / other
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong?
+      placeholder: e.g. the registry value name is different, the Intune setting was renamed …
+    validations:
+      required: true
+  - type: textarea
+    id: correct
+    attributes:
+      label: What is correct?
+      description: If possible with a source (Microsoft Learn link, ADMX file, screenshot of a test device).
+  - type: input
+    id: version
+    attributes:
+      label: Office version / update channel (optional)
+      placeholder: e.g. Microsoft 365 Apps, Monthly Enterprise Channel, Version 2509
