@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){var t;try{t=localStorage.getItem('oae.theme')}catch(e){}if(t==='light'||t==='dark'||t==='contrast')document.documentElement.setAttribute('data-theme',t)})();</script>
+<title>nousercustomization – Turn off all user customizations | GPO, registry &amp; Intune</title>
+<meta name="description" content="HKCU\…\word\nousercustomization (Enabled = 1 · Disabled = 0). GPO: Customize. Intune: Turn off all user customizations (User). This policy setting can…">
+<meta name="author" content="Pascal Donath">
+<meta name="theme-color" content="#0f6a73">
+<link rel="canonical" href="https://tools.pascal-donath.de/office-admin-explorer/p/en/office16/L_NoUserCustomizationPolicy.html">
+<link rel="alternate" hreflang="en" href="https://tools.pascal-donath.de/office-admin-explorer/p/en/office16/L_NoUserCustomizationPolicy.html">
+<link rel="alternate" hreflang="de" href="https://tools.pascal-donath.de/office-admin-explorer/p/de/office16/L_NoUserCustomizationPolicy.html">
+<link rel="alternate" hreflang="x-default" href="https://tools.pascal-donath.de/office-admin-explorer/p/en/office16/L_NoUserCustomizationPolicy.html">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../../apple-touch-icon.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<meta property="og:site_name" content="AdminBench">
+<meta property="og:type" content="website">
+<meta property="og:title" content="nousercustomization – Turn off all user customizations | GPO, registry &amp; Intune">
+<meta property="og:description" content="HKCU\…\word\nousercustomization (Enabled = 1 · Disabled = 0). GPO: Customize. Intune: Turn off all user customizations (User). This policy setting can…">
+<meta property="og:url" content="https://tools.pascal-donath.de/office-admin-explorer/p/en/office16/L_NoUserCustomizationPolicy.html">
+<meta property="og:image" content="https://tools.pascal-donath.de/office-admin-explorer/screenshot-explorer.png">
+<meta property="og:image:width" content="1720">
+<meta property="og:image:height" content="960">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:locale" content="en_US">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "AdminBench", "item": "https://tools.pascal-donath.de/"}, {"@type": "ListItem", "position": 2, "name": "Office Admin Explorer", "item": "https://tools.pascal-donath.de/office-admin-explorer/"}, {"@type": "ListItem", "position": 3, "name": "Policies", "item": "https://tools.pascal-donath.de/office-admin-explorer/p/en/"}, {"@type": "ListItem", "position": 4, "name": "office16.admx", "item": "https://tools.pascal-donath.de/office-admin-explorer/p/en/office16/"}, {"@type": "ListItem", "position": 5, "name": "Turn off all user customizations", "item": "https://tools.pascal-donath.de/office-admin-explorer/p/en/office16/L_NoUserCustomizationPolicy.html"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Turn off all user customizations", "description": "HKCU\\…\\word\\nousercustomization (Enabled = 1 · Disabled = 0). GPO: Customize. Intune: Turn off all user customizations (User). This policy setting can…", "inLanguage": "en", "author": {"@type": "Person", "name": "Pascal Donath", "url": "https://github.com/PascalDonath"}, "url": "https://tools.pascal-donath.de/office-admin-explorer/p/en/office16/L_NoUserCustomizationPolicy.html", "about": ["Group Policy", "Microsoft 365 Apps", "Microsoft Intune"]}</script>
+<link rel="stylesheet" href="../../static.css?v=2.2">
+<script src="../../static.js?v=2.2" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a><header class="top"><div class="in"><a class="brand" href="../../../">Office Admin Explorer</a><nav class="tnav" aria-label="Site"><a href="../../en/">All policies</a> · <a href="../../../">Interactive explorer</a></nav><div class="menuwrap"><button class="iconbtn" id="setBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="setMenu" title="Settings" aria-label="Settings"><span class="gear" aria-hidden="true"></span></button><div class="pop" id="setMenu" hidden><p class="ph">Language</p><div class="seg" role="group" aria-label="Language"><a href="../../en/office16/L_NoUserCustomizationPolicy.html" data-lang="en" hreflang="en" lang="en" aria-current="true">English</a><a href="../../de/office16/L_NoUserCustomizationPolicy.html" data-lang="de" hreflang="de" lang="de">Deutsch</a></div><p class="ph">Appearance</p><div class="seg" role="group" aria-label="Appearance"><button type="button" data-theme-set="auto">Auto</button><button type="button" data-theme-set="light">Light</button><button type="button" data-theme-set="dark">Dark</button><button type="button" data-theme-set="contrast">High contrast</button></div><p class="mut" style="font-size:13px;margin:10px 0 0">Shared with the interactive explorer.</p></div></div></div></header>
+<main id="main">
+<nav class="crumb mut" aria-label="Breadcrumb"><a href="../../../">Office Admin Explorer</a> › <a href="../">Policies</a> › <a href="./">office16.admx</a> › <a href="./#microsoft-office-2016-global-options-customize">Customize</a></nav><h1>Turn off all user customizations</h1><div class="card tscroll"><table class="glance"><tr><td>Registry value</td><td><div class="inl"><span class="mono"><b>nousercustomization</b></span><span data-copy="nousercustomization" hidden></span></div></td></tr><tr><td>Group Policy</td><td>Turn off all user customizations</td></tr><tr><td>German version</td><td><a href="../../de/office16/L_NoUserCustomizationPolicy.html" hreflang="de" lang="de">Alle Benutzeranpassungen deaktvieren</a></td></tr><tr><td>Intune settings catalog</td><td>Turn off all user customizations (User)</td></tr><tr><td>Scope</td><td>User · HKCU</td></tr><tr><td>ADMX</td><td class="mono">office16.admx · L_NoUserCustomizationPolicy</td></tr></table></div><div class="btns"><a class="btn" href="../../../#policy/office16/L_NoUserCustomizationPolicy">Open in the interactive explorer</a><a class="btn sec" href="../../../#collect/office16/L_NoUserCustomizationPolicy">+ Add to my collection</a></div><h2>Group Policy path</h2><div class="card"><div class="inl"><span class="mono">User Configuration\Policies\Administrative Templates\Microsoft Office 2016\Global Options\Customize</span><span data-copy="User Configuration\Policies\Administrative Templates\Microsoft Office 2016\Global Options\Customize" hidden></span></div><div class="inl" lang="de" style="margin-top:8px"><span class="mono mut">Benutzerkonfiguration\Richtlinien\Administrative Vorlagen\Microsoft Office 2016\Globale Optionen\Benutzerdefiniert</span><span data-copy="Benutzerkonfiguration\Richtlinien\Administrative Vorlagen\Microsoft Office 2016\Globale Optionen\Benutzerdefiniert" hidden></span></div></div><h2>Registry</h2><div class="card tscroll"><table><tr><th>Value</th><th>Data</th></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\word</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\word" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\excel</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\excel" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\powerpoint</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\powerpoint" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\access</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\access" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\outlook</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\outlook" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\sharepoint designer</span><span data-copy="HKCU\Software\policies\microsoft\office\sharepoint designer" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\publisher</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\publisher" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\project</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\project" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\visio</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\visio" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\onenote</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\onenote" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\infopath</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\infopath" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\common\toolbars\groove</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\common\toolbars\groove" hidden></span></div></td></tr><tr><td class="mono"><b>nousercustomization</b></td><td>Enabled = 1 · Disabled = 0</td></tr></table><p class="mut" style="font-size:14px;margin:10px 0 0">Not configured = the value does not exist – the application default applies and users may change the setting.</p></div><h2>PowerShell</h2><div class="card"><h3>Check the current value (read-only)</h3><pre># --- Settings ---
+$root = &#x27;HKCU:&#x27;   # other signed-in user (elevated): &#x27;Registry::HKEY_USERS\&lt;SID&gt;&#x27;
+
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\word&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\excel&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\powerpoint&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\access&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\outlook&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\sharepoint designer&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\publisher&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\project&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\visio&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\onenote&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\infopath&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\groove&quot;
+foreach ($name in @(&#x27;nousercustomization&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}</pre><p class="note"><b>Admin rights needed:</b> <code>HKCU\Software\Policies</code> is read-only for standard users. An elevated session writes to the <i>admin's</i> own HKCU – to set it for another signed-in user, change <code>$root</code> to <code>Registry::HKEY_USERS\&lt;SID&gt;</code>.</p><h3>Enable</h3><pre># --- Settings ---
+$root = &#x27;HKCU:&#x27;   # other signed-in user (elevated): &#x27;Registry::HKEY_USERS\&lt;SID&gt;&#x27;
+
+try {
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\word&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\excel&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\powerpoint&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\access&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\outlook&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\sharepoint designer&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\publisher&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\project&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\visio&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\onenote&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\infopath&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\groove&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    &#x27;Done.&#x27;
+}
+catch { Write-Error &quot;Failed: $($_.Exception.Message)&quot; }</pre><details><summary>Reset to Not configured</summary><pre># --- Settings ---
+$root = &#x27;HKCU:&#x27;   # other signed-in user (elevated): &#x27;Registry::HKEY_USERS\&lt;SID&gt;&#x27;
+
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\word&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\excel&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\powerpoint&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\access&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\outlook&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\sharepoint designer&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\publisher&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\project&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\visio&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\onenote&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\infopath&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+$key = &quot;$root\Software\policies\microsoft\office\16.0\common\toolbars\groove&quot;
+Remove-ItemProperty -Path $key -Name &#x27;nousercustomization&#x27; -ErrorAction SilentlyContinue
+&#x27;Policy values removed (Not configured).&#x27;</pre></details></div><h2>Intune (settings catalog)</h2><div class="card"><p><b>Turn off all user customizations (User)</b></p><p class="mut">Settings catalog → Add settings → search for the name above.</p><p><a href="https://intunesettings.app/setting/user_vendor_msft_policy_config_office16v2~policy~l_microsoftofficesystem~l_gloabloptions~l_customize_l_nousercustomizationpolicy/" rel="noopener">Intune Settings Catalog Viewer ↗</a></p><details><summary>Alternative: custom profile (OMA-URI)</summary><table><tr><td>OMA-URI</td><td><div class="inl"><span class="mono">./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_GloablOptions~L_Customize/L_NoUserCustomizationPolicy</span><span data-copy="./User/Vendor/MSFT/Policy/Config/office16v2~Policy~L_MicrosoftOfficeSystem~L_GloablOptions~L_Customize/L_NoUserCustomizationPolicy" hidden></span></div></td></tr><tr><td>Data type</td><td>String</td></tr><tr><td>Value</td><td><code>&lt;enabled/&gt;</code> · <code>&lt;disabled/&gt;</code></td></tr></table><p class="mut">This policy has options: add one <code>&lt;data id=&quot;…&quot; value=&quot;…&quot;/&gt;</code> per element after <code>&lt;enabled/&gt;</code>. The element IDs are in the ADMX file.</p></details></div><h2>Cloud Policy</h2><div class="card"><p>Cloud Policy (config.office.com → Customization → Policy Management) offers many user policies of the Microsoft 365 Apps – search for <b>Turn off all user customizations</b>. It also applies to unmanaged devices and wins over GPO and Intune for the same setting.</p></div><h2>Microsoft explanation</h2><div class="card"><p>This policy setting can prevent users from making any Quick Access Toolbar and the Ribbon customizations. This includes customizations made through user interface (UI) entry points, or loaded from documents or templates.</p><p>If you enable this policy setting, users will not be able to customize the Quick Access Toolbar and Ribbon through either the Quick Access Toolbar and Ribbon tabs in the application&#x27;s Office Center dialog box, or the right-click menu on the Ribbon. In addition, Quick Access Toolbar and Ribbon customizations originating from documents or templates will not be loaded when these documents are opened.</p><p>If you disable or do not configure this policy setting, users can make Quick Access Toolbar and Ribbon customizations through the UI, as well as load them from documents and templates.</p></div><h2>Same category: Microsoft Office 2016 › Global Options › Customize</h2><ul class="list"><li><a href="L_DisableToolbarCustomizationUIPolicy.html">Turn off user customizations via UI</a><span class="mono">disabletoolbarcustomizationui</span></li><li><a href="L_NoExtensibilityCustomizationFromDocumentPolicy.html">Disable UI extending from documents and templates</a><span class="mono">noextensibilitycustomizationfromdocument</span></li><li><a href="L_Largeicons.html">Large icons</a><span class="mono">btnsize</span></li><li><a href="L_Listfontnamesintheirfont.html">List font names in their font</a><span class="mono">fontview</span></li><li><a href="L_DoNotShowScreenTipsontoolbars.html">Do not show ScreenTips on toolbars</a><span class="mono">tooltips</span></li><li><a href="L_ShowshortcutkeysinScreenTips.html">Show shortcut keys in ScreenTips</a><span class="mono">showkbdshortcuts</span></li><li><a href="L_Menuanimations.html">Menu animations</a><span class="mono">animation</span></li><li><a href="L_AllowRoamingQuickAccessToolBarRibbonCustomizations.html">Allow roaming of all user customizations</a><span class="mono">customuiroaming</span></li><li><a href="L_DefaultUIThemeUser.html">Default Office theme</a><span class="mono">default ui theme</span></li></ul><p><a href="./#microsoft-office-2016-global-options-customize">All policies in this category</a> · <a href="./">All 945 policies of office16.admx</a></p>
+<footer class="mut">Office Admin Explorer by Pascal Donath · Data from the Microsoft 365 Apps ADMX/ADML templates and the Intune settings catalog · <a href="../../../">Open the interactive explorer</a> · <a href="../../en/">All policies</a></footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Open the Office Admin Explorer
+    url: https://tools.pascal-donath.de/office-admin-explorer/
+    about: Use "Report it on GitHub" in the inspector to report an error for a specific entry.

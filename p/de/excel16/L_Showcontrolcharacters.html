@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>(function(){var t;try{t=localStorage.getItem('oae.theme')}catch(e){}if(t==='light'||t==='dark'||t==='contrast')document.documentElement.setAttribute('data-theme',t)})();</script>
+<title>controlcharacters – Steuerzeichen anzeigen | GPO, Registrierung &amp; Intune</title>
+<meta name="description" content="HKCU\…\options\controlcharacters (Enabled = 1 · Disabled = 0). GPO: Erweitert. Intune: Show control characters (User). Durch Aktivieren dieser Richtlinie…">
+<meta name="author" content="Pascal Donath">
+<meta name="theme-color" content="#0f6a73">
+<link rel="canonical" href="https://tools.pascal-donath.de/office-admin-explorer/p/de/excel16/L_Showcontrolcharacters.html">
+<link rel="alternate" hreflang="en" href="https://tools.pascal-donath.de/office-admin-explorer/p/en/excel16/L_Showcontrolcharacters.html">
+<link rel="alternate" hreflang="de" href="https://tools.pascal-donath.de/office-admin-explorer/p/de/excel16/L_Showcontrolcharacters.html">
+<link rel="alternate" hreflang="x-default" href="https://tools.pascal-donath.de/office-admin-explorer/p/en/excel16/L_Showcontrolcharacters.html">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../../../apple-touch-icon.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<meta property="og:site_name" content="AdminBench">
+<meta property="og:type" content="website">
+<meta property="og:title" content="controlcharacters – Steuerzeichen anzeigen | GPO, Registrierung &amp; Intune">
+<meta property="og:description" content="HKCU\…\options\controlcharacters (Enabled = 1 · Disabled = 0). GPO: Erweitert. Intune: Show control characters (User). Durch Aktivieren dieser Richtlinie…">
+<meta property="og:url" content="https://tools.pascal-donath.de/office-admin-explorer/p/de/excel16/L_Showcontrolcharacters.html">
+<meta property="og:image" content="https://tools.pascal-donath.de/office-admin-explorer/screenshot-explorer.png">
+<meta property="og:image:width" content="1720">
+<meta property="og:image:height" content="960">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:locale" content="de_DE">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "AdminBench", "item": "https://tools.pascal-donath.de/"}, {"@type": "ListItem", "position": 2, "name": "Office Admin Explorer", "item": "https://tools.pascal-donath.de/office-admin-explorer/"}, {"@type": "ListItem", "position": 3, "name": "Richtlinien", "item": "https://tools.pascal-donath.de/office-admin-explorer/p/de/"}, {"@type": "ListItem", "position": 4, "name": "excel16.admx", "item": "https://tools.pascal-donath.de/office-admin-explorer/p/de/excel16/"}, {"@type": "ListItem", "position": 5, "name": "Steuerzeichen anzeigen", "item": "https://tools.pascal-donath.de/office-admin-explorer/p/de/excel16/L_Showcontrolcharacters.html"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "TechArticle", "headline": "Steuerzeichen anzeigen", "description": "HKCU\\…\\options\\controlcharacters (Enabled = 1 · Disabled = 0). GPO: Erweitert. Intune: Show control characters (User). Durch Aktivieren dieser Richtlinie…", "inLanguage": "de", "author": {"@type": "Person", "name": "Pascal Donath", "url": "https://github.com/PascalDonath"}, "url": "https://tools.pascal-donath.de/office-admin-explorer/p/de/excel16/L_Showcontrolcharacters.html", "about": ["Group Policy", "Microsoft 365 Apps", "Microsoft Intune"]}</script>
+<link rel="stylesheet" href="../../static.css?v=2.2">
+<script src="../../static.js?v=2.2" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Zum Inhalt springen</a><header class="top"><div class="in"><a class="brand" href="../../../">Office Admin Explorer</a><nav class="tnav" aria-label="Site"><a href="../../de/">Alle Richtlinien</a> · <a href="../../../">Interaktiver Explorer</a></nav><div class="menuwrap"><button class="iconbtn" id="setBtn" type="button" aria-haspopup="true" aria-expanded="false" aria-controls="setMenu" title="Einstellungen" aria-label="Einstellungen"><span class="gear" aria-hidden="true"></span></button><div class="pop" id="setMenu" hidden><p class="ph">Sprache</p><div class="seg" role="group" aria-label="Sprache"><a href="../../en/excel16/L_Showcontrolcharacters.html" data-lang="en" hreflang="en" lang="en">English</a><a href="../../de/excel16/L_Showcontrolcharacters.html" data-lang="de" hreflang="de" lang="de" aria-current="true">Deutsch</a></div><p class="ph">Darstellung</p><div class="seg" role="group" aria-label="Darstellung"><button type="button" data-theme-set="auto">Auto</button><button type="button" data-theme-set="light">Hell</button><button type="button" data-theme-set="dark">Dunkel</button><button type="button" data-theme-set="contrast">Hoher Kontrast</button></div><p class="mut" style="font-size:13px;margin:10px 0 0">Gilt auch für den interaktiven Explorer.</p></div></div></div></header>
+<main id="main">
+<nav class="crumb mut" aria-label="Breadcrumb"><a href="../../../">Office Admin Explorer</a> › <a href="../">Richtlinien</a> › <a href="./">excel16.admx</a> › <a href="./#microsoft-excel-2016-excel-options-advanced">Erweitert</a></nav><h1>Steuerzeichen anzeigen</h1><div class="card tscroll"><table class="glance"><tr><td>Registrierungswert</td><td><div class="inl"><span class="mono"><b>controlcharacters</b></span><span data-copy="controlcharacters" hidden></span></div></td></tr><tr><td>Gruppenrichtlinie</td><td>Steuerzeichen anzeigen</td></tr><tr><td>Englische Version</td><td><a href="../../en/excel16/L_Showcontrolcharacters.html" hreflang="en" lang="en">Show control characters</a></td></tr><tr><td>Intune-Einstellungskatalog</td><td>Show control characters (User)</td></tr><tr><td>Bereich</td><td>Benutzer · HKCU</td></tr><tr><td>ADMX</td><td class="mono">excel16.admx · L_Showcontrolcharacters</td></tr></table></div><div class="btns"><a class="btn" href="../../../#policy/excel16/L_Showcontrolcharacters">Im interaktiven Explorer öffnen</a><a class="btn sec" href="../../../#collect/excel16/L_Showcontrolcharacters">+ Zur Sammlung</a></div><h2>Pfad der Gruppenrichtlinie</h2><div class="card"><div class="inl"><span class="mono">Benutzerkonfiguration\Richtlinien\Administrative Vorlagen\Microsoft Excel 2016\Excel-Optionen\Erweitert</span><span data-copy="Benutzerkonfiguration\Richtlinien\Administrative Vorlagen\Microsoft Excel 2016\Excel-Optionen\Erweitert" hidden></span></div><div class="inl" lang="en" style="margin-top:8px"><span class="mono mut">User Configuration\Policies\Administrative Templates\Microsoft Excel 2016\Excel Options\Advanced</span><span data-copy="User Configuration\Policies\Administrative Templates\Microsoft Excel 2016\Excel Options\Advanced" hidden></span></div></div><h2>Registrierung</h2><div class="card tscroll"><table><tr><th>Wert</th><th>Daten</th></tr><tr><td colspan="2" class="mono key"><div class="inl"><span class="mono">HKCU\Software\policies\microsoft\office\16.0\excel\options</span><span data-copy="HKCU\Software\policies\microsoft\office\16.0\excel\options" hidden></span></div></td></tr><tr><td class="mono"><b>controlcharacters</b></td><td>Enabled = 1 · Disabled = 0</td></tr></table><p class="mut" style="font-size:14px;margin:10px 0 0">Nicht konfiguriert = der Wert existiert nicht – es gilt der Standard der Anwendung, Benutzer dürfen die Einstellung ändern.</p></div><h2>PowerShell</h2><div class="card"><h3>Aktuellen Wert prüfen (nur lesen)</h3><pre># --- Settings ---
+$root = &#x27;HKCU:&#x27;   # other signed-in user (elevated): &#x27;Registry::HKEY_USERS\&lt;SID&gt;&#x27;
+
+$key = &quot;$root\Software\policies\microsoft\office\16.0\excel\options&quot;
+foreach ($name in @(&#x27;controlcharacters&#x27;)) {
+    try   { &#x27;{0} = {1}&#x27; -f $name, (Get-ItemPropertyValue -Path $key -Name $name -ErrorAction Stop) }
+    catch { &#x27;{0}: not configured&#x27; -f $name }
+}</pre><p class="note"><b>Adminrechte nötig:</b> <code>HKCU\Software\Policies</code> ist für Standardbenutzer schreibgeschützt. Eine erhöhte Sitzung schreibt in das HKCU <i>des Admins</i> – für einen anderen angemeldeten Benutzer <code>$root</code> auf <code>Registry::HKEY_USERS\&lt;SID&gt;</code> ändern.</p><h3>Aktivieren</h3><pre># --- Settings ---
+$root = &#x27;HKCU:&#x27;   # other signed-in user (elevated): &#x27;Registry::HKEY_USERS\&lt;SID&gt;&#x27;
+
+try {
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\excel\options&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;controlcharacters&#x27; -PropertyType DWord -Value 1 -Force -ErrorAction Stop | Out-Null   # Enabled
+    &#x27;Done.&#x27;
+}
+catch { Write-Error &quot;Failed: $($_.Exception.Message)&quot; }</pre><details><summary>Deaktivieren</summary><pre># --- Settings ---
+$root = &#x27;HKCU:&#x27;   # other signed-in user (elevated): &#x27;Registry::HKEY_USERS\&lt;SID&gt;&#x27;
+
+try {
+    $key = &quot;$root\Software\policies\microsoft\office\16.0\excel\options&quot;
+    if (-not (Test-Path $key)) { New-Item -Path $key -Force -ErrorAction Stop | Out-Null }
+    New-ItemProperty -Path $key -Name &#x27;controlcharacters&#x27; -PropertyType DWord -Value 0 -Force -ErrorAction Stop | Out-Null   # Disabled
+    &#x27;Done.&#x27;
+}
+catch { Write-Error &quot;Failed: $($_.Exception.Message)&quot; }</pre></details><details><summary>Auf „Nicht konfiguriert“ zurücksetzen</summary><pre># --- Settings ---
+$root = &#x27;HKCU:&#x27;   # other signed-in user (elevated): &#x27;Registry::HKEY_USERS\&lt;SID&gt;&#x27;
+
+$key = &quot;$root\Software\policies\microsoft\office\16.0\excel\options&quot;
+Remove-ItemProperty -Path $key -Name &#x27;controlcharacters&#x27; -ErrorAction SilentlyContinue
+&#x27;Policy values removed (Not configured).&#x27;</pre></details></div><h2>Intune (Einstellungskatalog)</h2><div class="card"><p><b>Show control characters (User)</b></p><p class="mut">Einstellungskatalog → Einstellungen hinzufügen → nach dem Namen oben suchen.</p><p><a href="https://intunesettings.app/setting/user_vendor_msft_policy_config_excel16v2~policy~l_microsoftofficeexcel~l_exceloptions~l_advanced_l_showcontrolcharacters/" rel="noopener">Intune Settings Catalog Viewer ↗</a></p><details><summary>Alternative: benutzerdefiniertes Profil (OMA-URI)</summary><table><tr><td>OMA-URI</td><td><div class="inl"><span class="mono">./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Advanced/L_Showcontrolcharacters</span><span data-copy="./User/Vendor/MSFT/Policy/Config/excel16v2~Policy~L_MicrosoftOfficeExcel~L_ExcelOptions~L_Advanced/L_Showcontrolcharacters" hidden></span></div></td></tr><tr><td>Datentyp</td><td>String</td></tr><tr><td>Wert</td><td><code>&lt;enabled/&gt;</code> · <code>&lt;disabled/&gt;</code></td></tr></table></details></div><h2>Cloud Policy</h2><div class="card"><p>Cloud Policy (config.office.com → Anpassung → Richtlinienverwaltung) enthält viele Benutzerrichtlinien der Microsoft 365 Apps – suchen nach <b>Show control characters</b>. Gilt auch auf nicht verwalteten Geräten und hat Vorrang vor GPO und Intune bei derselben Einstellung.</p></div><h2>Erklärung von Microsoft</h2><div class="card"><p>Durch Aktivieren dieser Richtlinie wird die Benutzeroption &quot;Steuerzeichen anzeigen&quot; ausgewählt. Diese Option wird in der Kategorie &quot;Erweitert&quot; angezeigt, wenn bestimmte Sprachen aktiviert wurden.</p></div><h2>Gleiche Kategorie: Microsoft Excel 2016 › Excel-Optionen › Erweitert</h2><ul class="list"><li><a href="L_SetNumberOfPlacesInTheRecentPlacesList.html">Anzahl der Ordner in der Liste &quot;Zuletzt verwendete Ordner&quot;</a><span class="mono">max display</span></li><li><a href="L_Defaultdirection.html">Standardblattrichtung</a><span class="mono">defaultsheetr2l</span></li><li><a href="L_Cursormovement.html">Cursorbewegung</a><span class="mono">cursorvisual</span></li><li><a href="L_MicrosoftExcelmenuorHelpkey.html">Microsoft Excel-Menü oder Hilfetaste</a><span class="mono">menukey</span></li><li><a href="L_Transitionnavigationkeys.html">Alternative Bewegungstasten</a><span class="mono">fisi_33_1</span></li><li><a href="L_Ignoreotherapplications.html">Andere Anwendungen ignorieren</a><span class="mono">fddeenabled_6_1</span></li><li><a href="L_ZoomonrollwithIntelliMouse.html">Beim Rollen mit IntelliMouse zoomen</a><span class="mono">frollzoom_98_1</span></li><li><a href="L_Shownames.html">Namen anzeigen</a><span class="mono">fshowchartnames_96_1</span></li><li><a href="L_Showvalues.html">Werte anzeigen</a><span class="mono">fshowcharttipvalues_97_1</span></li><li><a href="L_Editdirectlyincell.html">Direkte Zellbearbeitung aktivieren</a><span class="mono">fnoincell_66_1</span></li><li><a href="L_EnableFillHandleAndCellDragAndDrop.html">Ausfüllkästchen und Drag &amp; Drop von Zellen aktivieren</a><span class="mono">fdisabledman_36_1</span></li><li><a href="L_Alertbeforeoverwritingcells.html">Vor dem Überschreiben von Zellen warnen</a><span class="mono">fnodragwarning_76_1</span></li></ul><p><a href="./#microsoft-excel-2016-excel-options-advanced">Alle Richtlinien dieser Kategorie</a> · <a href="./">Alle 173 Richtlinien von excel16.admx</a></p>
+<footer class="mut">Office Admin Explorer by Pascal Donath · Daten aus den ADMX/ADML-Vorlagen von Microsoft 365 Apps und dem Intune-Einstellungskatalog · <a href="../../../">Interaktiven Explorer öffnen</a> · <a href="../../de/">Alle Richtlinien</a></footer>
+</main>
+</body>
+</html>
